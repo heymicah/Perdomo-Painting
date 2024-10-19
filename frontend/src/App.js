@@ -1,13 +1,13 @@
 import './App.css';
+import logo from "./images/Perdomo's Painting-A1.png";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Perdomo's Painting</h1>
-        <p>
-          Perdomo's Painting is the best painting company in the world
-        </p>
+      <header className="image-header">
+        <div className="logo-container">
+          <img src={logo} alt="Perdomo's Painting Logo" className="logo" />
+        </div>
       </header>
     </div>
   );
