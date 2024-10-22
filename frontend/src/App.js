@@ -8,33 +8,50 @@ function App() {
     <div className="App">
       {/* Header Section */}
       <header className="header">
-        <img src={logo} alt="Perdomo's Painting Logo" className="logo" />
-        <h1>Perdomo's Painting</h1>
-        <p>Professional Painting Services for Your Home and Business</p>
+        <div className="top-bar">
+          <img src={logo} alt="Perdomo's Painting Logo" className="logo" />
+        </div>
+        <div className="hero">
+        </div>
       </header>
 
       {/* About Us Section */}
       <section className="about-us">
-        <h2>About Us</h2>
+        <h2>The Standard in Painting</h2>
         <p>
-          At Perdomo's Painting, we specialize in delivering top-quality
-          painting services. With over 10 years of experience, our skilled
-          painters provide reliable and efficient service to meet your unique
-          needs. We pride ourselves on transforming homes and businesses with a
-          fresh coat of paint.
+          With years of experience, Perdomo's Painting offers professional painting services with a commitment to excellence. Our skilled team ensures top-notch results on every project.
         </p>
+        <PopupButton className="cta-button"
+          url="https://calendly.com/perdomospainting/schedulecall"
+          rootElement={document.getElementById("root")}
+          text="Schedule a Call"
+        />
       </section>
 
       {/* Services Section */}
       <section className="services">
         <h2>Our Services</h2>
-        <ul>
-          <li>Interior Painting</li>
-          <li>Exterior Painting</li>
-          <li>Commercial Painting</li>
-          <li>Wallpaper Removal</li>
-          <li>Deck and Fence Staining</li>
-        </ul>
+        <div className="services-container">
+          <div className="service">
+            <h3>Interior Painting</h3>
+            <p>Transform your home's interior with a fresh coat of paint.</p>
+          </div>
+          <div className="service">
+            <h3>Exterior Painting</h3>
+            <p>Enhance your home's exterior with durable, weather-resistant paints.</p>
+          </div>
+          {/* Add more services as needed */}
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div className="testimonial">
+          <p>"Perdomo's Painting did an amazing job on our house! Highly recommend."</p>
+          <h4>- Sarah, Homeowner</h4>
+        </div>
+        {/* Add more testimonials if needed */}
       </section>
 
       {/* Contact Section */}
@@ -45,11 +62,6 @@ function App() {
           Email: info@perdomospainting.com <br />
           Address: 123 Paint Street, Cityname, ST 12345
         </p>
-        <PopupButton
-          url="https://calendly.com/perdomospainting/schedulecall"
-          rootElement={document.getElementById("root")}
-          text="Click here to schedule!"
-        />
       </section>
 
       {/* Footer */}
