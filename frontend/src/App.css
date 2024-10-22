@@ -1,28 +1,57 @@
 .App {
+  font-family: Arial, sans-serif;
   text-align: center;
 }
 
-.image-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px; /* Reduced padding for a smaller header */
-  background-color: #f3f3f3; /* Light background */
-  border-bottom: 2px solid #333; /* Dark border to distinguish the header */
-}
-
-.logo-container {
-  display: flex;
-  align-items: center;
+.header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 2rem;
 }
 
 .logo {
-  width: 150px; /* Increase the logo size */
-  margin-right: 20px; /* Space between logo and company name */
+  max-width: 150px;
+  margin-bottom: 1rem;
 }
 
-.company-name {
-  font-size: 1.5rem; /* Slightly reduce the font size of the company name */
-  color: #333; /* Dark text color */
-  font-family: 'Arial', sans-serif; /* Preferred font */
+.header h1 {
+  font-size: 3rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+}
+
+section {
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.about-us, .services, .contact {
+  background-color: #ecf0f1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1.5rem auto;
+  max-width: 800px;
+  padding: 1.5rem;
+}
+
+h2 {
+  color: #2980b9;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.footer {
+  background-color: #34495e;
+  color: white;
+  padding: 1rem;
 }
