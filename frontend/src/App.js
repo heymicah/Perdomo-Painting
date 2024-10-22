@@ -54,7 +54,7 @@ function App() {
 
       {/* Footer */}
       <footer className="footer">
-        <p>&copy; 2024 BrightCoat Painting. All rights reserved.</p>
+        <p>&copy; 2024 Perdomo's Painting. All rights reserved.</p>
       </footer>
     </div>
   );
