@@ -17,15 +17,38 @@ function App() {
 
       {/* About Us Section */}
       <section className="about-us">
-        <h2>The Standard in Painting</h2>
+        <h2>Perdomo's Painting</h2>
         <p>
-          With years of experience, Perdomo's Painting offers professional painting services with a commitment to excellence. Our skilled team ensures top-notch results on every project.
+          Serving our community since 2017. Our team is dedicated to transforming your home while providing exceptional customer service. Let us bring your vision to life.
         </p>
         <PopupButton className="cta-button"
           url="https://calendly.com/perdomospainting/schedulecall"
           rootElement={document.getElementById("root")}
           text="Schedule a Call"
         />
+      </section>
+
+      {/* Pillars of Success */}
+      <section className="services">
+        <h2>Perdomo's Painting Pillars of Success</h2>
+        <div className="services-container">
+          <div className="service">
+            <h3>Quality Work and Products</h3>
+            <p>We promise to deliver top-notch work and only use the best products, ensuring your home looks stunning for years to come.</p>
+          </div>
+          <div className="service">
+            <h3 styles='text-align'>Exceptional Customer Service</h3>
+            <p>We prioritize your satisfaction by providing quick response times and open communication throughout the duration of the project.</p>
+          </div>
+          <div className="service">
+            <h3 styles='text-align'>Timely Completion</h3>
+            <p>We commit to completing the project on time with the least amount of disruption to your daily life.</p>
+          </div>
+          <div className="service">
+            <h3 styles='text-align'>Transparent Pricing</h3>
+            <p>What you see is what you pay. Upfront pricing and no hidden or surprise fees. We value your trust and will strive to keep it.</p>
+          </div>
+        </div>
       </section>
 
       {/* Services Section */}

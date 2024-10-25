@@ -102,18 +102,6 @@ button.cta-button:hover {
   margin: 1rem 0;
 }
 
-button.service-button {
-  background-color: #3498db;
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  cursor: pointer;
-}
-
-button.service-button:hover {
-  background-color: #2980b9;
-}
-
 /* Testimonials Section */
 .testimonials {
   background-color: #f7f7f7;
