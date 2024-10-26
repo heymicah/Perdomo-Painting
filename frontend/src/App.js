@@ -17,15 +17,18 @@ function App() {
 
       {/* About Us Section */}
       <section className="about-us">
-        <h2>Perdomo's Painting</h2>
-        <p>
-          Serving our community since 2017. Our team is dedicated to transforming your home while providing exceptional customer service. Let us bring your vision to life.
-        </p>
-        <PopupButton className="cta-button"
-          url="https://calendly.com/perdomospainting/schedulecall"
-          rootElement={document.getElementById("root")}
-          text="Schedule a Call"
-        />
+        <div className="text-container">
+          <h2>Perdomo's Painting</h2>
+          <p>
+            Serving our community since 2017. Our team is dedicated to transforming your home while providing exceptional customer service. Let us bring your vision to life.
+          </p>
+          <PopupButton
+            className="cta-button"
+            url="https://calendly.com/perdomospainting/schedulecall"
+            rootElement={document.getElementById("root")}
+            text="Schedule a Call"
+          />
+        </div>
       </section>
 
       {/* Services Section */}

@@ -60,14 +60,32 @@ button.cta-button:hover {
 
 /* About Us Section */
 .about-us {
-  background-color: #ecf0f1;
+  background-image: url('../src/images/background.jpg');
+  background-size: cover;
+  background-position: center;
   padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  background-color: white;
+  border-radius: 15px;
+  padding: 2rem;
+  max-width: 700px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2, .about-us p {
+  color: #34495e;
+  margin: 0;
 }
 
 .about-us p {
-  max-width: 700px;
-  margin: 0 auto;
   font-size: 1.2rem;
+  margin: 1rem 0;
 }
 
 /* Services Section */
