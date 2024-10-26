@@ -54,14 +54,27 @@ function App() {
       {/* Services Section */}
       <section className="services">
         <h2>Our Services</h2>
+        <p>At Perdomo's Painting, no matter your painting needs we stand with you every step of the way.</p>
         <div className="services-container">
           <div className="service">
-            <h3>Interior Painting</h3>
-            <p>Transform your home's interior with a fresh coat of paint.</p>
+            <h3>Exterior</h3>
+            <p>Our exterior painting services are designed to enhance the curb appeal and protect your home from the elements.</p>
           </div>
           <div className="service">
-            <h3>Exterior Painting</h3>
-            <p>Enhance your home's exterior with durable, weather-resistant paints.</p>
+            <h3>Interior</h3>
+            <p>From living rooms and bedrooms to kitchens and hallways, we pay careful attention to detail, ensuring clean lines and even coverage.</p>
+          </div>
+          <div className="service">
+            <h3>Cabinets</h3>
+            <p>With a commitment to exceptional craftsmanship you can trust Perdomo's Painting to transform your cabinets into stunning focal points.</p>
+          </div>
+          <div className="service">
+            <h3>Furniture</h3>
+            <p>Whether you're looking to refresh an old piece or completely transform your décor, we work to exceed your expectations and breathe new life into your living room, kitchen or bathroom.</p>
+          </div>
+          <div className="service">
+            <h3>Floors</h3>
+            <p>Whether you're looking to refresh an indoor area, enhance a garage, or revitalize a patio, our team is equipped to handle it all.</p>
           </div>
           {/* Add more services as needed */}
         </div>
