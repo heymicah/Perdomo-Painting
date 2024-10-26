@@ -28,29 +28,6 @@ function App() {
         />
       </section>
 
-      {/* Pillars of Success */}
-      <section className="services">
-        <h2>Perdomo's Painting Pillars of Success</h2>
-        <div className="services-container">
-          <div className="service">
-            <h3>Quality Work and Products</h3>
-            <p>We promise to deliver top-notch work and only use the best products, ensuring your home looks stunning for years to come.</p>
-          </div>
-          <div className="service">
-            <h3 styles='text-align'>Exceptional Customer Service</h3>
-            <p>We prioritize your satisfaction by providing quick response times and open communication throughout the duration of the project.</p>
-          </div>
-          <div className="service">
-            <h3 styles='text-align'>Timely Completion</h3>
-            <p>We commit to completing the project on time with the least amount of disruption to your daily life.</p>
-          </div>
-          <div className="service">
-            <h3 styles='text-align'>Transparent Pricing</h3>
-            <p>What you see is what you pay. Upfront pricing and no hidden or surprise fees. We value your trust and will strive to keep it.</p>
-          </div>
-        </div>
-      </section>
-
       {/* Services Section */}
       <section className="services">
         <h2>Our Services</h2>
@@ -77,6 +54,29 @@ function App() {
             <p>Whether you're looking to refresh an indoor area, enhance a garage, or revitalize a patio, our team is equipped to handle it all.</p>
           </div>
           {/* Add more services as needed */}
+        </div>
+      </section>
+
+      {/* Pillars of Success */}
+      <section className="services">
+        <h2>Perdomo's Painting Pillars of Success</h2>
+        <div className="services-container">
+          <div className="service">
+            <h3>Quality Work and Products</h3>
+            <p>We promise to deliver top-notch work and only use the best products, ensuring your home looks stunning for years to come.</p>
+          </div>
+          <div className="service">
+            <h3 styles='text-align'>Exceptional Customer Service</h3>
+            <p>We prioritize your satisfaction by providing quick response times and open communication throughout the duration of the project.</p>
+          </div>
+          <div className="service">
+            <h3 styles='text-align'>Timely Completion</h3>
+            <p>We commit to completing the project on time with the least amount of disruption to your daily life.</p>
+          </div>
+          <div className="service">
+            <h3 styles='text-align'>Transparent Pricing</h3>
+            <p>What you see is what you pay. Upfront pricing and no hidden or surprise fees. We value your trust and will strive to keep it.</p>
+          </div>
         </div>
       </section>
 
