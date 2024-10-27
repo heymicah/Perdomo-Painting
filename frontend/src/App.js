@@ -37,26 +37,30 @@ function App() {
         <p>At Perdomo's Painting, no matter your painting needs we stand with you every step of the way.</p>
         <div className="services-container">
           <div className="service">
+            <img src={require('../src/images/exterior.jpg')} alt="Exterior Painting" />
             <h3>Exterior</h3>
             <p>Our exterior painting services are designed to enhance the curb appeal and protect your home from the elements.</p>
           </div>
           <div className="service">
+            <img src={require('../src/images/interior.jpeg')} alt="Interior Painting" />
             <h3>Interior</h3>
             <p>From living rooms and bedrooms to kitchens and hallways, we pay careful attention to detail, ensuring clean lines and even coverage.</p>
           </div>
           <div className="service">
+            <img src={require("../src/images/kitchen.jpeg")} alt="Cabinet Painting" />
             <h3>Cabinets</h3>
             <p>With a commitment to exceptional craftsmanship you can trust Perdomo's Painting to transform your cabinets into stunning focal points.</p>
           </div>
           <div className="service">
+            <img src={require("../src/images/furniture.jpeg")} alt="Furniture Painting" />
             <h3>Furniture</h3>
-            <p>Whether you're looking to refresh an old piece or completely transform your décor, we work to exceed your expectations and breathe new life into your living room, kitchen or bathroom.</p>
+            <p>Whether you're looking to refresh an old piece or completely transform your décor, we work to exceed your expectations and breathe new life into your living room, kitchen, or bathroom.</p>
           </div>
           <div className="service">
-            <h3>Floors</h3>
-            <p>Whether you're looking to refresh an indoor area, enhance a garage, or revitalize a patio, our team is equipped to handle it all.</p>
+            <img src={require("../src/images/driveway.jpeg")} alt="Driveway Painting" />
+            <h3>Driveway</h3>
+            <p>Our team is fully equipped to refresh indoor areas, enhance garages, and revitalize patios, providing a complete solution for all your space improvement needs.</p>
           </div>
-          {/* Add more services as needed */}
         </div>
       </section>
 
@@ -69,7 +73,7 @@ function App() {
             <p>We promise to deliver top-notch work and only use the best products, ensuring your home looks stunning for years to come.</p>
           </div>
           <div className="service">
-            <h3 styles='text-align'>Exceptional Customer Service</h3>
+            <h3 styles='text-align'>Unrivaled Customer Service</h3>
             <p>We prioritize your satisfaction by providing quick response times and open communication throughout the duration of the project.</p>
           </div>
           <div className="service">
@@ -83,23 +87,21 @@ function App() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
+      {/* Testimonials Section
       <section className="testimonials">
         <h2>What Our Clients Say</h2>
         <div className="testimonial">
           <p>"Perdomo's Painting did an amazing job on our house! Highly recommend."</p>
           <h4>- Sarah, Homeowner</h4>
         </div>
-        {/* Add more testimonials if needed */}
-      </section>
+      </section> */}
 
       {/* Contact Section */}
       <section className="contact">
         <h2>Contact Us</h2>
         <p>
-          Phone: (123) 456-7890 <br />
-          Email: info@perdomospainting.com <br />
-          Address: 123 Paint Street, Cityname, ST 12345
+          Phone: (561) 584-3192<br />
+          Email: support@perdomospainting.com <br />
         </p>
       </section>
 
